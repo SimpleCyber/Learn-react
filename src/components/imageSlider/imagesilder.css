@@ -1,5 +1,6 @@
 .slider-main {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
@@ -7,6 +8,7 @@
   font-size: larger;
   font-weight: bolder;
   color: aliceblue;
+  gap: 1rem;
 }
 
 .slider {
