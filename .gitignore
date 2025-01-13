@@ -33,3 +33,4 @@ coverage/
 *.log
 *.lock
 *.bak
+.git

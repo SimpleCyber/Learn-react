@@ -19,6 +19,7 @@
   min-height: 100vh;
   background-color: var(--background);
   padding: 20px;
+
 }
 
 .accordion {
@@ -33,6 +34,7 @@
   margin-bottom: 8px;
   border: 1px solid var(--border);
   border-radius: 4px;
+
 }
 
 .title {
@@ -118,26 +120,22 @@ button {
     box-shadow: 0 2px 8px rgba(37, 99, 235, 0.2);
   }
   
-  /* Hover effect with glow */
   button:hover {
     background-color: #1d4ed8;
     transform: translateY(-2px);
     box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
   }
   
-  /* Click effect */
   button:active {
     transform: translateY(0);
     box-shadow: 0 1px 4px rgba(37, 99, 235, 0.2);
   }
   
-  /* Focus state for accessibility */
   button:focus-visible {
     outline: 2px solid #60a5fa;
     outline-offset: 2px;
   }
   
-  /* Ripple effect */
   button::after {
     content: '';
     position: absolute;
@@ -161,7 +159,6 @@ button {
     }
   }
   
-  /* Disabled state */
   button:disabled {
     background-color: #94a3b8;
     cursor: not-allowed;
@@ -169,7 +166,6 @@ button {
     box-shadow: none;
   }
   
-  /* Optional loading state */
   button.loading {
     cursor: wait;
     position: relative;

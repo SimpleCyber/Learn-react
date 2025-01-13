@@ -1,0 +1,9 @@
+.load-more{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: larger;
+  font-weight: bolder;
+  background-color: rgb(181, 255, 255);
+}
