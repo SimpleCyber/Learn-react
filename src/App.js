@@ -4,6 +4,8 @@ import RandomColor from "./components/generateRandomColor/index.jsx"
 import Rating from './components/rating/index.jsx';
 import ImageSlider from './components/imageSlider/index.jsx';
 import LoadMore from './components/load-more/index.jsx';
+import TreeView from './components/tree-view/index.jsx';
+import menus from './components/tree-view/data.js';
 
 
 function App() {
@@ -23,6 +25,10 @@ function App() {
 
       {/* 5. Load more */}
       <LoadMore />
+
+
+      {/* 6. Menu list */}
+      <TreeView menus={menus} />
 
       
 
