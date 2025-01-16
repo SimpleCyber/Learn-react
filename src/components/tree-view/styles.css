@@ -1,4 +1,13 @@
 /* Menu Container Styles */
+.tree-view-container{
+  min-height: 100vh;
+  background-color: blanchedalmond;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 1rem;
+}
+
+
 .menu-container {
     font-family: Arial, sans-serif;
     padding: 10px;
